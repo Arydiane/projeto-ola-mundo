@@ -7,3 +7,12 @@
     align-items: center;
     column-gap: .5rem;
 }
+
+@media (max-width: 425px) {
+    .rodape {
+        flex-direction: column;
+        padding: 2rem;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+}

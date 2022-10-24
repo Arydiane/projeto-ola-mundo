@@ -102,3 +102,21 @@
         transform: translate(-1.5rem, 0px);
     }
 }
+
+@media (max-width: 425px) {
+
+    .imagens {
+        height: 207px;
+    }
+
+    .imagens > .minhaFoto {
+        width: 150px;
+        transform: translate(4rem, 0px);
+    }
+
+    .imagens > .circuloColorido {
+        width: 200px;
+        transform: translate(-2.5rem, 0px);
+    }
+
+}

@@ -32,3 +32,9 @@
         font-weight: 600;
     }
 }
+
+@media (max-width: 425px) {
+    .post {
+        width: 100%;
+    }
+}
