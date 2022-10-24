@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './NaoEncontrada.module.css'
 import erro404 from 'assets/erro_404.png'
+import BotaoPrincipal from 'componentes/BotaoPrincipal'
 
 export default function NaoEncontrada() {
     return (
@@ -21,7 +22,9 @@ export default function NaoEncontrada() {
                 </p>
 
                 <div className={styles.botaoContainer}>
-                    <button>Voltar</button>
+                    <BotaoPrincipal tamanho="lg">
+                        Voltar
+                    </BotaoPrincipal>
                 </div>
 
                 <img
